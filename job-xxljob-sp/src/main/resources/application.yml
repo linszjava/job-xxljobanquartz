@@ -1,0 +1,10 @@
+xxl:
+  job:
+    admin:
+      address: http://127.0.0.1:9549/xxl-job # 调度中心(大脑)的通信地址
+    executor:
+      appname: my-business-executor # 执行器的唯一代号(非常重要！调度中心要在前端靠这个绑定你的项目)
+      port: 9999 # 执行器自己启动内嵌 Netty 服务器暴露的端口(默认9999，供后台请求你。如果你同机器跑多个应用必须改它防止端口冲突)
+      logpath: ${user.dir}/job-xxljob-sp/logs/jobhandler # 在你本地保存详细日志流水的磁盘路径
+      logretentiondays: 30 # 日志保存天数
+    accessToken: default_token # 如果 admin 那边开启了安全令牌验证，这里必须要一致才能通信
