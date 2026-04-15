@@ -1,0 +1,14 @@
+2026-04-15 15:52:20 [com.xxl.job.core.thread.JobThread#run]-[128]-[xxl-job, JobThread-8-1776239520299] <br>----------- xxl-job job execute start -----------<br>----------- Param:test1,test2,param1,param2
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[40]-[xxl-job, JobThread-future-8-1776239540038] 分片参数获取成功：当前分片序号(index) = 1, 总分片数(total) = 2
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[56]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[忽略] 数据 ID: 0 (交给了其它节点)
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[50]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[命中] 分配处理数据 ID: 1
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[56]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[忽略] 数据 ID: 2 (交给了其它节点)
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[50]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[命中] 分配处理数据 ID: 3
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[56]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[忽略] 数据 ID: 4 (交给了其它节点)
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[50]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[命中] 分配处理数据 ID: 5
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[56]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[忽略] 数据 ID: 6 (交给了其它节点)
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[50]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[命中] 分配处理数据 ID: 7
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[56]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[忽略] 数据 ID: 8 (交给了其它节点)
+2026-04-15 15:52:20 [com.lin.job.SampleXxlJob#shardingJobHandler]-[50]-[xxl-job, JobThread-future-8-1776239540038] 第 1 片节点，[命中] 分配处理数据 ID: 9
+2026-04-15 15:52:20 [com.xxl.job.core.thread.JobThread#run]-[175]-[xxl-job, JobThread-8-1776239520299] <br>----------- xxl-job job execute end(finish) -----------<br>----------- Result: handleCode=200, handleMsg = null
+2026-04-15 15:52:20 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[215]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.
